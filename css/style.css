@@ -290,7 +290,7 @@ textarea {
 }
 
 label {
-    color: white!important;
+    color: white;
     display: flex;
 }
 
@@ -556,10 +556,6 @@ h2 {
     opacity: 1;
 }
 
-.bg-primary {
-    background-color: #5c2107!important;
-}
-
 
 /*Galeria boostrap de la seccion galeria */
 
@@ -776,12 +772,6 @@ h2 {
     .mainMenu li:hover .subMenu {
         margin-left: 0px;
     }
-    .logo {
-        width: 0px;
-        margin-left: 420px;
-        height: auto;
-        padding: 0px;
-    }
     .mainMenu a {
         font-size: 20px;
     }
@@ -841,12 +831,6 @@ h2 {
     .mainMenu li:hover .subMenu {
         margin-left: 0px;
     }
-    .logo {
-        width: 0px;
-        margin-left: 340px;
-        height: auto;
-        padding: 0px;
-    }
     .mainMenu a {
         font-size: 20px;
     }
@@ -873,6 +857,9 @@ h2 {
         margin-top: 25px;
         overflow-y: scroll;
         overflow-x: scroll;
+    }
+    .navbar-nav-scroll {
+        --bs-scroll-height: 500px!important;
     }
 }
 
@@ -915,12 +902,6 @@ h2 {
         margin: -20px;
         margin-left: -40px;
         margin-top: -25px;
-    }
-    .logo {
-        width: 0px;
-        margin-left: 240px;
-        height: auto;
-        padding: 0px;
     }
     .mainMenu a {
         font-size: 16px;
@@ -1037,12 +1018,18 @@ h2 {
     .tiendaC {
         margin-left: -50px;
     }
+    .navbar-nav-scroll {
+        --bs-scroll-height: 500px!important;
+    }
 }
 
 
 /* Para 480px */
 
 @media only screen and (max-width: 500px) and (min-width: 341px) {
+    .navbar-nav-scroll {
+        --bs-scroll-height: 500px!important;
+    }
     .u1 img {
         width: 300px;
     }
@@ -1075,12 +1062,6 @@ h2 {
         margin: -20px;
         margin-left: -8px;
         margin-top: -25px;
-    }
-    .logo {
-        width: 0px;
-        margin-left: 150px;
-        height: auto;
-        padding: 0px;
     }
     .mainMenu a {
         font-size: 13px;
@@ -1223,12 +1204,6 @@ h2 {
         margin: -20px;
         margin-left: -9px;
         margin-top: -28px;
-    }
-    .logo {
-        width: 0px;
-        margin-left: 80px;
-        height: auto;
-        padding: 0px;
     }
     .mainMenu a {
         font-size: 10px;

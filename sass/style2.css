@@ -1,472 +1,458 @@
 @charset "UTF-8";
-
 /*Variables*/
-
-
 /*Inicio seccion Conciertos*/
-
 .contenedor__portada {
-    background: #660000;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 20px;
+  background: #660000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
 }
 
 .contenedor__portada .contenedor__portada--titulo {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor__portada .contenedor__portada--texto {
-    color: white;
-    font-family: sans-serif;
-    font-weight: 600;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 .contenedor__concierto {
-    background: -webkit-gradient(linear, left top, right top, from(#ad0609), to(#660000));
-    background: linear-gradient(90deg, #ad0609 0%, #660000 100%);
-    width: 1350px;
-    height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(#ad0609), to(#660000));
+  background: linear-gradient(90deg, #ad0609 0%, #660000 100%);
+  width: 1350px;
+  height: 500px;
 }
 
 .contenedor__concierto .contenedor__imagen {
-    width: 300px;
-    margin-top: 35px;
-    margin-left: 20px;
+  width: 300px;
+  margin-top: 35px;
+  margin-left: 20px;
 }
 
 .contenedor__concierto .contenedor__texto {
-    margin-left: 450px;
-    margin-top: -370px;
+  margin-left: 450px;
+  margin-top: -370px;
 }
 
 .contenedor__concierto .contenedor__texto .contenedor__texto--titulo {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor__concierto .contenedor__texto .contenedor__texto--parrafo {
-    color: white;
-    font-weight: 700;
+  color: white;
+  font-weight: 700;
 }
 
 .contenedor__concierto--2 {
-    background: -webkit-gradient(linear, left top, right top, from(#510577), to(#3104e4));
-    background: linear-gradient(90deg, #510577 0%, #3104e4 100%);
-    width: 1350px;
-    height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(#510577), to(#3104e4));
+  background: linear-gradient(90deg, #510577 0%, #3104e4 100%);
+  width: 1350px;
+  height: 500px;
 }
 
 .contenedor__concierto--2 .contenedor__imagen {
-    width: 300px;
-    margin-top: 35px;
-    margin-left: 20px;
+  width: 300px;
+  margin-top: 35px;
+  margin-left: 20px;
 }
 
 .contenedor__concierto--2 .contenedor--texto {
-    margin-left: 450px;
-    margin-top: -370px;
+  margin-left: 450px;
+  margin-top: -370px;
 }
 
 .contenedor__concierto--2 .contenedor--texto .contenedor__texto--titulo2 {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor__concierto--2 .contenedor--texto .contenedor__texto--parrafo2 {
-    color: white;
-    font-weight: 700;
+  color: white;
+  font-weight: 700;
 }
 
 .contenedor__concierto--3 {
-    background: -webkit-gradient(linear, left top, right top, from(#0f6e33), to(#109426));
-    background: linear-gradient(90deg, #0f6e33 0%, #109426 100%);
-    width: 1350px;
-    height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(#0f6e33), to(#109426));
+  background: linear-gradient(90deg, #0f6e33 0%, #109426 100%);
+  width: 1350px;
+  height: 500px;
 }
 
 .contenedor__concierto--3 .contenedor__imagen {
-    width: 300px;
-    margin-top: 35px;
-    margin-left: 20px;
+  width: 300px;
+  margin-top: 35px;
+  margin-left: 20px;
 }
 
 .contenedor__concierto--3 .contenedor--texto {
-    margin-left: 450px;
-    margin-top: -370px;
+  margin-left: 450px;
+  margin-top: -370px;
 }
 
 .contenedor__concierto--3 .contenedor--texto .contenedor__texto--titulo3 {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor__concierto--3 .contenedor--texto .contenedor__texto--parrafo3 {
-    color: white;
-    font-weight: 700;
+  color: white;
+  font-weight: 700;
 }
 
 .contenedor__concierto--4 {
-    background: -webkit-gradient(linear, left top, right top, from(#bd7a16), to(#ffb847));
-    background: linear-gradient(90deg, #bd7a16 0%, #ffb847 100%);
-    width: 1350px;
-    height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(#bd7a16), to(#ffb847));
+  background: linear-gradient(90deg, #bd7a16 0%, #ffb847 100%);
+  width: 1350px;
+  height: 500px;
 }
 
 .contenedor__concierto--4 .contenedor__imagen {
-    width: 300px;
-    margin-top: 35px;
-    margin-left: 20px;
+  width: 300px;
+  margin-top: 35px;
+  margin-left: 20px;
 }
 
 .contenedor__concierto--4 .contenedor--texto {
-    margin-left: 450px;
-    margin-top: -370px;
+  margin-left: 450px;
+  margin-top: -370px;
 }
 
 .contenedor__concierto--4 .contenedor--texto .contenedor__texto--titulo4 {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor__concierto--4 .contenedor--texto .contenedor__texto--parrafo4 {
-    color: white;
-    font-weight: 700;
+  color: white;
+  font-weight: 700;
 }
 
 .contenedor__concierto--5 {
-    background: -webkit-gradient(linear, left top, right top, from(#1619bd), to(#4772ff));
-    background: linear-gradient(90deg, #1619bd 0%, #4772ff 100%);
-    width: 1350px;
-    height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(#1619bd), to(#4772ff));
+  background: linear-gradient(90deg, #1619bd 0%, #4772ff 100%);
+  width: 1350px;
+  height: 500px;
 }
 
 .contenedor__concierto--5 .contenedor__imagen {
-    width: 300px;
-    margin-top: 35px;
-    margin-left: 20px;
+  width: 300px;
+  margin-top: 35px;
+  margin-left: 20px;
 }
 
 .contenedor__concierto--5 .contenedor--texto {
-    margin-left: 450px;
-    margin-top: -370px;
+  margin-left: 450px;
+  margin-top: -370px;
 }
 
 .contenedor__concierto--5 .contenedor--texto .contenedor__texto--titulo5 {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor__concierto--5 .contenedor--texto .contenedor__texto--parrafo5 {
-    color: white;
-    font-weight: 700;
+  color: white;
+  font-weight: 700;
 }
 
 .boton__personalizado--red {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    background: red;
-    -webkit-box-shadow: 1px 1px 0px 2px #e60000, 2px 2px 0px 2px #cc0000, 3px 3px 0px 2px #b30000, 4px 4px 0px 2px #990000;
-    box-shadow: 1px 1px 0px 2px #e60000, 2px 2px 0px 2px #cc0000, 3px 3px 0px 2px #b30000, 4px 4px 0px 2px #990000;
-    font-size: 28px;
-    color: white;
-    border-radius: 2px;
-    margin-left: 500px;
-    background: #d40202;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background: red;
+  -webkit-box-shadow: 1px 1px 0px 2px #e60000,2px 2px 0px 2px #cc0000,3px 3px 0px 2px #b30000,4px 4px 0px 2px #990000;
+          box-shadow: 1px 1px 0px 2px #e60000,2px 2px 0px 2px #cc0000,3px 3px 0px 2px #b30000,4px 4px 0px 2px #990000;
+  font-size: 28px;
+  color: white;
+  border-radius: 2px;
+  margin-left: 500px;
+  background: #d40202;
 }
 
 .boton__personalizado--black {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    background: #1f1f1f;
-    -webkit-box-shadow: 1px 1px 0px 2px #121212, 2px 2px 0px 2px #060606, 3px 3px 0px 2px black, 4px 4px 0px 2px black;
-    box-shadow: 1px 1px 0px 2px #121212, 2px 2px 0px 2px #060606, 3px 3px 0px 2px black, 4px 4px 0px 2px black;
-    font-size: 28px;
-    color: white;
-    border-radius: 2px;
-    margin-left: 500px;
-    background: #0c0c0c;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background: #1f1f1f;
+  -webkit-box-shadow: 1px 1px 0px 2px #121212,2px 2px 0px 2px #060606,3px 3px 0px 2px black,4px 4px 0px 2px black;
+          box-shadow: 1px 1px 0px 2px #121212,2px 2px 0px 2px #060606,3px 3px 0px 2px black,4px 4px 0px 2px black;
+  font-size: 28px;
+  color: white;
+  border-radius: 2px;
+  margin-left: 500px;
+  background: #0c0c0c;
 }
 
-
 /*Pie de pagina*/
-
 .contenedor__footer {
-    color: #fff;
-    text-align: center;
-    margin-top: 75px;
-    font-weight: 700;
-    font-family: sans-serif, Helvetica;
-    background-color: #000000;
-    padding: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+  color: #fff;
+  text-align: center;
+  margin-top: 75px;
+  font-weight: 700;
+  font-family: sans-serif, Helvetica;
+  background-color: #000000;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .contenedor__footer .contenedor__footer--imagenes {
-    width: 50px;
-    height: auto;
-    -webkit-transition: -webkit-transform .5s;
-    transition: -webkit-transform .5s;
-    transition: transform .5s;
-    transition: transform .5s, -webkit-transform .5s;
-    margin-top: 20px;
+  width: 50px;
+  height: auto;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  margin-top: 20px;
 }
 
 .contenedor__footer .contenedor__footer--imagenes .contenedor__footer--imagenes:hover {
-    -webkit-transform: scale(1.5) rotate(45deg);
-    transform: scale(1.5) rotate(45deg);
+  -webkit-transform: scale(1.5) rotate(45deg);
+          transform: scale(1.5) rotate(45deg);
 }
 
 .contenedor__footer .contenedor__footer--imagenes a img,
 .contenedor__footer .contenedor__footer--imagenes a svg {
-    width: 75px;
-    padding: 10px;
+  width: 75px;
+  padding: 10px;
 }
 
 .contenedor__footer .contenedor__footer--copy {
-    color: white;
-    padding: 10px;
+  color: white;
+  padding: 10px;
 }
 
-
 /* Copyright*/
-
 .contenedor__footer--copy {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-    font-weight: 700;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-name: aparecer;
-    animation-name: aparecer;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    25% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 2;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 2;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    25% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 2;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 2;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-
 /* Barra redes sociales*/
-
 .contenedor__sociales {
-    /*las imágenes usadas tienen width de 48px*/
-    width: 48px;
-    position: fixed;
-    top: 200px;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  /*las imágenes usadas tienen width de 48px*/
+  width: 48px;
+  position: fixed;
+  top: 200px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contenedor__sociales .contenedor__sociales--facebook img,
 .contenedor__sociales svg {
-    width: 58px;
-    margin-top: 5px;
-    margin-left: -30px;
+  width: 58px;
+  margin-top: 5px;
+  margin-left: -30px;
 }
 
 .contenedor__sociales .contenedor__sociales--youtube img,
 .contenedor__sociales svg {
-    width: 48px;
-    margin-top: 5px;
-    margin-left: -30px;
+  width: 48px;
+  margin-top: 5px;
+  margin-left: -30px;
 }
 
 .contenedor__sociales .contenedor__sociales--instagram img,
 .contenedor__sociales svg {
-    width: 48px;
-    margin-top: 5px;
-    margin-left: -30px;
+  width: 48px;
+  margin-top: 5px;
+  margin-left: -30px;
 }
 
-
 /* Para 600px */
-
 @media only screen and (max-width: 620px) and (min-width: 501px) {
-    .contenedor__footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+  .contenedor__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .contenedor__concierto .contenedor__texto,
-    .contenedor__concierto--2 .contenedor--texto,
-    .contenedor__concierto--3 .contenedor--texto,
-    .contenedor__concierto--4 .contenedor--texto,
-    .contenedor__concierto--5 .contenedor--texto {
-        margin-left: -130px;
-        margin-top: 0px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .contenedor__concierto .contenedor__texto,
+  .contenedor__concierto--2 .contenedor--texto,
+  .contenedor__concierto--3 .contenedor--texto,
+  .contenedor__concierto--4 .contenedor--texto,
+  .contenedor__concierto--5 .contenedor--texto {
+    margin-left: -130px;
+    margin-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .boton__personalizado--red {
-        width: 120px;
-        margin-left: 60px;
-        margin-top: -10px;
-    }
-    .boton__personalizado--black {
-        width: 120px;
-        margin-left: 60px;
-        margin-top: -10px;
-    }
-    .contenedor__concierto .contenedor__texto .contenedor__texto--parrafo {
-        width: 260px;
-    }
-    .contenedor__concierto,
-    .contenedor__concierto--2,
-    .contenedor__concierto--3,
-    .contenedor__concierto--4,
-    .contenedor__concierto--5 {
-        width: 0px;
-        height: 600px;
-    }
-    .contenedor__portada .contenedor__portada--texto {
-        text-align: center;
-    }
-    .contenedor__concierto .contenedor__imagen,
-    .contenedor__concierto--2 .contenedor__imagen,
-    .contenedor__concierto--3 .contenedor__imagen,
-    .contenedor__concierto--4 .contenedor__imagen,
-    .contenedor__concierto--5 .contenedor__imagen {
-        width: 280px;
-        padding: 20px;
-        margin-left: -140px;
-    }
-    .contenedor__concierto .contenedor--texto .contenedor__texto--titulo,
-    .contenedor__concierto--2 .contenedor--texto .contenedor__texto--titulo2,
-    .contenedor__concierto--4 .contenedor--texto .contenedor__texto--titulo4,
-    .contenedor__concierto--3 .contenedor--texto .contenedor__texto--titulo3,
-    .contenedor__concierto--5 .contenedor--texto .contenedor__texto--titulo5 {
-        margin: 10px;
-        width: 200px;
-    }
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .boton__personalizado--red {
+    width: 120px;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  .boton__personalizado--black {
+    width: 120px;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  .contenedor__concierto .contenedor__texto .contenedor__texto--parrafo {
+    width: 260px;
+  }
+  .contenedor__concierto,
+  .contenedor__concierto--2,
+  .contenedor__concierto--3,
+  .contenedor__concierto--4,
+  .contenedor__concierto--5 {
+    width: 0px;
+    height: 600px;
+  }
+  .contenedor__portada .contenedor__portada--texto {
+    text-align: center;
+  }
+  .contenedor__concierto .contenedor__imagen,
+  .contenedor__concierto--2 .contenedor__imagen,
+  .contenedor__concierto--3 .contenedor__imagen,
+  .contenedor__concierto--4 .contenedor__imagen,
+  .contenedor__concierto--5 .contenedor__imagen {
+    width: 280px;
+    padding: 20px;
+    margin-left: -140px;
+  }
+  .contenedor__concierto .contenedor--texto .contenedor__texto--titulo,
+  .contenedor__concierto--2 .contenedor--texto .contenedor__texto--titulo2,
+  .contenedor__concierto--4 .contenedor--texto .contenedor__texto--titulo4,
+  .contenedor__concierto--3 .contenedor--texto .contenedor__texto--titulo3,
+  .contenedor__concierto--5 .contenedor--texto .contenedor__texto--titulo5 {
+    margin: 10px;
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 479px) and (min-width: 5px) {
-    .contenedor__footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+  .contenedor__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .contenedor__concierto .contenedor__texto,
-    .contenedor__concierto--2 .contenedor--texto,
-    .contenedor__concierto--3 .contenedor--texto,
-    .contenedor__concierto--4 .contenedor--texto,
-    .contenedor__concierto--5 .contenedor--texto {
-        margin-left: -130px;
-        margin-top: 0px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .contenedor__concierto .contenedor__texto,
+  .contenedor__concierto--2 .contenedor--texto,
+  .contenedor__concierto--3 .contenedor--texto,
+  .contenedor__concierto--4 .contenedor--texto,
+  .contenedor__concierto--5 .contenedor--texto {
+    margin-left: -130px;
+    margin-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .boton__personalizado--red {
-        width: 120px;
-        margin-left: 60px;
-        margin-top: -10px;
-    }
-    .boton__personalizado--black {
-        width: 120px;
-        margin-left: 60px;
-        margin-top: -10px;
-    }
-    .contenedor__concierto .contenedor__texto .contenedor__texto--parrafo {
-        width: 260px;
-    }
-    .contenedor__concierto,
-    .contenedor__concierto--2,
-    .contenedor__concierto--3,
-    .contenedor__concierto--4,
-    .contenedor__concierto--5 {
-        width: 0px;
-        height: 600px;
-    }
-    .contenedor__portada .contenedor__portada--texto {
-        text-align: center;
-    }
-    .contenedor__concierto .contenedor__imagen,
-    .contenedor__concierto--2 .contenedor__imagen,
-    .contenedor__concierto--3 .contenedor__imagen,
-    .contenedor__concierto--4 .contenedor__imagen,
-    .contenedor__concierto--5 .contenedor__imagen {
-        width: 280px;
-        padding: 20px;
-        margin-left: -140px;
-    }
-    .contenedor__concierto .contenedor--texto .contenedor__texto--titulo,
-    .contenedor__concierto--2 .contenedor--texto .contenedor__texto--titulo2,
-    .contenedor__concierto--4 .contenedor--texto .contenedor__texto--titulo4,
-    .contenedor__concierto--3 .contenedor--texto .contenedor__texto--titulo3,
-    .contenedor__concierto--5 .contenedor--texto .contenedor__texto--titulo5 {
-        margin: 10px;
-        width: 200px;
-    }
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .boton__personalizado--red {
+    width: 120px;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  .boton__personalizado--black {
+    width: 120px;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  .contenedor__concierto .contenedor__texto .contenedor__texto--parrafo {
+    width: 260px;
+  }
+  .contenedor__concierto,
+  .contenedor__concierto--2,
+  .contenedor__concierto--3,
+  .contenedor__concierto--4,
+  .contenedor__concierto--5 {
+    width: 0px;
+    height: 600px;
+  }
+  .contenedor__portada .contenedor__portada--texto {
+    text-align: center;
+  }
+  .contenedor__concierto .contenedor__imagen,
+  .contenedor__concierto--2 .contenedor__imagen,
+  .contenedor__concierto--3 .contenedor__imagen,
+  .contenedor__concierto--4 .contenedor__imagen,
+  .contenedor__concierto--5 .contenedor__imagen {
+    width: 280px;
+    padding: 20px;
+    margin-left: -140px;
+  }
+  .contenedor__concierto .contenedor--texto .contenedor__texto--titulo,
+  .contenedor__concierto--2 .contenedor--texto .contenedor__texto--titulo2,
+  .contenedor__concierto--4 .contenedor--texto .contenedor__texto--titulo4,
+  .contenedor__concierto--3 .contenedor--texto .contenedor__texto--titulo3,
+  .contenedor__concierto--5 .contenedor--texto .contenedor__texto--titulo5 {
+    margin: 10px;
+    width: 200px;
+  }
 }
-
-
 /*# sourceMappingURL=style2.css.map */
